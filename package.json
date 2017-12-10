@@ -1,0 +1,25 @@
+{
+  "name": "webextensions-capture",
+  "description": "WebExtensions Capture",
+  "scripts": {
+    "start": "webpack -w --debug --devtool inline-source-map",
+    "build": "webpack --progress --display-error-details"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ueokande/webextensions-capture.git"
+  },
+  "author": "Shin'ya Ueoka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ueokande/webextensions-capture/issues"
+  },
+  "homepage": "https://github.com/ueokande/webextensions-capture",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-preact": "^1.1.0",
+    "webpack": "^3.5.3"
+  }
+}
