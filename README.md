@@ -1,2 +1,2 @@
-# webextensions-capture
-WebExtensions Capture API
+# screenshot-webextensions
+Screenshot on WebExtensions
